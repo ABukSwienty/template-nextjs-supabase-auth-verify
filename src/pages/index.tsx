@@ -2,13 +2,11 @@ import { Inter } from "@next/font/google";
 
 import { signIn, signOut } from "next-auth/react";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   const loginHandler = async () => {
     await signIn("credentials", {
-      email: "alexanderbukswienty@gmail.com",
-      password: "Thomasmann007",
+      email: "YOUR_EMAIL",
+      password: "YOUR_PASSWORD",
       redirect: false,
     });
   };
