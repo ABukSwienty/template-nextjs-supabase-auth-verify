@@ -16,6 +16,7 @@ npm install && npm run dev
 - Email verification. Uses a google account to send emails
 - Protected routes with middleware to check if user is logged in (JWT)
 - sign-up route with email verification
+- Prisma postgres database with supabase
 
 ### Libraries
 
@@ -34,3 +35,4 @@ npm install && npm run dev
 - uuid
 - yup & zod
 - react hot toast
+- prisma
